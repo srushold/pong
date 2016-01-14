@@ -54,6 +54,9 @@ void draw() {
 
         // If we hit the paddle... change direction
         ball_dir *= -1;
+        // Draw ball
+        fill(0,0,255);
+        ellipse(ball_x, ball_y, ball_size, ball_size);
 
         // Send a message to the main page updating the score...
         score += 1;
