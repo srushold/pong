@@ -3,7 +3,7 @@ float ball_x;
 float ball_y;
 float ball_dir = 1; // Direction in x 
 float ball_size = 12;  // Radius of ball
-float dy = 4.8,5.6;  // Change in y
+float dy = 4.8;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 5;
