@@ -1,9 +1,9 @@
 // Global variables for the ball
 float ball_x;
 float ball_y;
-float ball_dir = 1; // Direction in x 
+float ball_dir = 3; // Direction in x 
 float ball_size = 7;  // Radius of ball
-float dy = 2;  // Change in y
+float dy = 3.5;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 5;
@@ -28,7 +28,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    background(155,0,0);
+    background(128,0,128);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 6.0;
