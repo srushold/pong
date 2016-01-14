@@ -3,7 +3,7 @@ float ball_x;
 float ball_y;
 float ball_dir = 1; // Direction in x 
 float ball_size = 12;  // Radius of ball
-float dy = 7.3;  // Change in y
+float dy = 4.8,5.6;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 5;
@@ -28,17 +28,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    var forum = $('.main-content .statused tr'),i;
- var colors = ["#000","#F00","#FF0","#FFF","#0F0","#00F"];
-    for(var j=0;j<forum.length;j++) {
-       forumBG= forum[parseInt(j)];
-       if(!forumBG) return;
-
-  for (i=0;i<colors.length; i++){
-   forum[j].style.background =colors[i];
-
-  }
- }
+    Background(255,0,0)
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 6.0;
