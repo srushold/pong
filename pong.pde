@@ -1,13 +1,13 @@
 // Global variables for the ball
 float ball_x;
 float ball_y;
-float ball_dir = 400; // Direction in x 
+float ball_dir = 40; // Direction in x 
 float ball_size = 6;  // Radius of ball
 float dy = 0;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 5;
-var paddle_height = 200;
+var paddle_height = 50;
 
 var dist_wall = 8;
 
